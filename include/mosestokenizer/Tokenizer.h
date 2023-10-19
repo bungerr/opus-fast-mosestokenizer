@@ -12,7 +12,7 @@
 #include <stdexcept>
 
 #include <re2/re2.h>
-#include <unistd.h>
+#include <io.h>
 
 #include "mosestokenizer/Parameters.h"
 

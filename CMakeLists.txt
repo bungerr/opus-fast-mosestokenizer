@@ -9,7 +9,7 @@ add_definitions(-DTOKENIZER_NAMESPACE=mosestokenizer)
 ######## Options
 option(BUILD_SHARED_LIBS "Build mosestokenizer as shared library" ON)
 option(BUILD_CLI "Build mosestokenizer commandline tool" ON)
-option(BUILD_PYTHON "Build mosestokneizer python library" OFF)
+option(BUILD_PYTHON "Build mosestokneizer python library" ON)
 
 
 ######## CMake settings
@@ -35,7 +35,7 @@ else()
   if (${CMAKE_SYSTEM_NAME} MATCHES "Darwin")
     set(CMAKE_FIND_LIBRARY_SUFFIXES ".dylib")
   else()
-    set(CMAKE_FIND_LIBRARY_SUFFIXES ".so")
+    set(CMAKE_FIND_LIBRARY_SUFFIXES ".dll")
   endif()
 endif ()
 
@@ -67,24 +67,44 @@ endif()
 # Boost
 if (BUILD_SHARED_LIBS)
 
-find_package(Boost COMPONENTS program_options thread REQUIRED)
-include_directories(${Boost_INCLUDE_DIRS})
+set(BOOST_ROOT "C:/git/opus-fast-mosestokenizer/vcpkg/installed/x64-windows")
+#find_package(Boost COMPONENTS program_options thread REQUIRED)
+set(Boost_LIBRARIES
+  C:\\git\\opus-fast-mosestokenizer\\vcpkg\\installed\\x64-windows\\lib\\boost_program_options-vc140-mt.lib
+  C:\\git\\opus-fast-mosestokenizer\\vcpkg\\installed\\x64-windows\\lib\\boost_thread-vc140-mt.lib
+)
+
+include_directories(${BOOST_ROOT}/include/boost)
+include_directories(${BOOST_ROOT}/include/absl)
+
+message("Boost Libraries: ${Boost_LIBRARIES}")
 set(DEP_LIBRARIES ${DEP_LIBRARIES} ${Boost_LIBRARIES})
 
 else()
 
-include_directories(${CMAKE_SOURCE_DIR}/deps/boost_1_73_0)
+include_directories("C:\\Program Files\\boost")
 set(
   DEP_LIBRARIES
   ${DEP_LIBRARIES}
-  ${CMAKE_SOURCE_DIR}/deps/boost_1_73_0/stage/lib/libboost_thread.a
-  ${CMAKE_SOURCE_DIR}/deps/boost_1_73_0/stage/lib/libboost_program_options.a
+  ${Boost_LIBRARIES}
+  ${Boost_LIBRARIES}
 )
 
 endif()
 
+link_directories(C:/git/opus-fast-mosestokenizer/vcpkg/installed/x64-windows/lib)
+#set(INTL_LIBRARY "C:/git/opus-fast-mosestokenizer/vcpkg/installed/x64-windows/lib/intl.lib")
+set(Intl_INCLUDE_DIR "C:/git/opus-fast-mosestokenizer/vcpkg/installed/x64-windows/include")
+set(Intl_LIBRARY "C:/git/opus-fast-mosestokenizer/vcpkg/installed/x64-windows/lib/intl.lib")
+#set(INTL_LIBRARIES "C:/git/opus-fast-mosestokenizer/vcpkg/installed/x64-windows/lib/intl.lib")
+#set(RE2_LIBRARIES "vcpkg/installed/x64-windows/lib/re2.lib")
+
 # Intl
+
+
 find_package(Intl REQUIRED)
+set(Intl_LIBRARY "C:/git/opus-fast-mosestokenizer/vcpkg/installed/x64-windows/lib/intl.lib")
+set(Intl_LIBRARIES "C:/git/opus-fast-mosestokenizer/vcpkg/installed/x64-windows/lib/intl.lib")
 include_directories(${Intl_INCLUDE_DIRS})
 set(DEP_LIBRARIES ${DEP_LIBRARIES} ${Intl_LIBRARIES})
 
@@ -98,13 +118,48 @@ include_directories(${RE2_INCLUDE_DIRS})
 link_directories(${RE2_LIBRARY_DIRS})
 set(DEP_LIBRARIES ${DEP_LIBRARIES} ${RE2_LIBRARIES})
 
+#set(ABSL_INCLUDE_DIR "C:/git/opus-fast-mosestokenizer/vcpkg/installed/x64-windows/include")
+#include_directories(${ABSL_INCLUDE_DIR})
+#set(ABSL_LIBRARIES
+#    "${CMAKE_SOURCE_DIR}/vcpkg/installed/x64-windows/lib/abseil_dll.lib"
+#    "${CMAKE_SOURCE_DIR}/vcpkg/installed/x64-windows/lib/absl_flags.lib"
+#    "${CMAKE_SOURCE_DIR}/vcpkg/installed/x64-windows/lib/absl_flags_commandlineflag.lib"
+#    "${CMAKE_SOURCE_DIR}/vcpkg/installed/x64-windows/lib/absl_flags_commandlineflag_internal.lib"
+#    "${CMAKE_SOURCE_DIR}/vcpkg/installed/x64-windows/lib/absl_flags_config.lib"
+#    "${CMAKE_SOURCE_DIR}/vcpkg/installed/x64-windows/lib/absl_flags_internal.lib"
+#    "${CMAKE_SOURCE_DIR}/vcpkg/installed/x64-windows/lib/absl_flags_marshalling.lib"
+#    "${CMAKE_SOURCE_DIR}/vcpkg/installed/x64-windows/lib/absl_flags_parse.lib"
+#    "${CMAKE_SOURCE_DIR}/vcpkg/installed/x64-windows/lib/absl_flags_private_handle_accessor.lib"
+#    "${CMAKE_SOURCE_DIR}/vcpkg/installed/x64-windows/lib/absl_flags_program_name.lib"
+#    "${CMAKE_SOURCE_DIR}/vcpkg/installed/x64-windows/lib/absl_flags_reflection.lib"
+#    "${CMAKE_SOURCE_DIR}/vcpkg/installed/x64-windows/lib/absl_flags_usage.lib"
+#    "${CMAKE_SOURCE_DIR}/vcpkg/installed/x64-windows/lib/absl_flags_usage_internal.lib"
+#    "${CMAKE_SOURCE_DIR}/vcpkg/installed/x64-windows/lib/absl_log_flags.lib"
+#    "${CMAKE_SOURCE_DIR}/vcpkg/installed/x64-windows/lib/absl_string_view.lib"
+#)
+
+set(ABSL_LIBRARIES
+  C:\\git\\opus-fast-mosestokenizer\\vcpkg\\installed\\x64-windows\\lib\\abseil_dll.lib
+  C:\\git\\opus-fast-mosestokenizer\\vcpkg\\installed\\x64-windows\\lib\\absl_string_view.lib
+)
+
+set(DEP_LIBRARIES ${DEP_LIBRARIES} ${ABSL_LIBRARIES})
+
+include_directories(
+  C:/git/opus-fast-mosestokenizer/vcpkg/installed/x64-windows/include
+  C:/git/opus-fast-mosestokenizer/vcpkg/installed/x64-windows/include/glib-2.0
+  C:/git/opus-fast-mosestokenizer/vcpkg/installed/x64-windows/lib/glib-2.0/include
+)
+
+
 include_directories(${CMAKE_SOURCE_DIR}/include)
-add_definitions(-std=c++11 -pthread)
+#add_definitions(-std=c++11 -pthread)
 
 
 ######## Targets
-add_library(mosestokenizer-dev src/Tokenizer.cpp src/Parameters.cpp)
-target_link_libraries(mosestokenizer-dev PRIVATE ${DEP_LIBRARIES})
+add_library(mosestokenizer-dev SHARED src/Tokenizer.cpp src/Parameters.cpp)
+set_target_properties(mosestokenizer-dev PROPERTIES WINDOWS_EXPORT_ALL_SYMBOLS TRUE)
+target_link_libraries(mosestokenizer-dev PRIVATE ${DEP_LIBRARIES} ${PYTHON_LIBRARIES})
 
 configure_file(
   mosestokenizer.pc.in

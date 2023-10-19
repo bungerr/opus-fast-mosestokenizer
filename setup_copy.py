@@ -63,23 +63,15 @@ class CMakeBuild(build_ext):
 
         cmake_args = [
             'cmake', ext.sourcedir,
-            '-DCMAKE_TOOLCHAIN_FILE=vcpkg/scripts/buildsystems/vcpkg.cmake',
             '-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=' + extdir,
             '-DPYTHON_EXECUTABLE=' + sys.executable,
             '-DBUILD_CLI:BOOL=OFF',
             '-DBUILD_PYTHON:BOOL=ON',
-            '-DBoost_USE_STATIC_LIBS=ON',
-            '-DIconv_LIBRARY=C:\\git\\opus-fast-mosestokenizer\\vcpkg\\installed\\x64-windows\\lib\\iconv.lib',
-            '-DCMAKE_ARCHIVE_OUTPUT_DIRECTORY=' + extdir,
-            '-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=' + extdir,
-            '-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=' + extdir,
-
-            
         ]
         if os.environ.get(ENV_STATIC_LIBS, None):
             cmake_args.append('-DBUILD_SHARED_LIBS:BOOL=OFF')
         else:
-            cmake_args.append('-DBUILD_SHARED_LIBS:BOOL=ON') # ON
+            cmake_args.append('-DBUILD_SHARED_LIBS:BOOL=ON')
         build_args = [
             'cmake', '--build', '.',
             '--config', cfg
@@ -128,8 +120,7 @@ setup(
         'share/*',
         'share/*/*',
         'lib/*.so*',
-        'lib/*.dylib',
-        'lib/*.dll',
+        'lib/*.dylib'
     ]},
     ext_modules=[CMakeExtension(
         'mosestokenizer.lib._mosestokenizer'

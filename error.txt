@@ -1,0 +1,605 @@
+re2.lib(tostring.cc.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in mos
+estokenizer.obj [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+re2.lib(re2.cc.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in mosestok 
+enizer.obj [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+re2.lib(regexp.cc.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in moses 
+tokenizer.obj [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+re2.lib(strutil.cc.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in mose 
+stokenizer.obj [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+re2.lib(prog.cc.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in mosesto 
+kenizer.obj [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+re2.lib(nfa.cc.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in mosestok 
+enizer.obj [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+re2.lib(dfa.cc.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in mosestok 
+enizer.obj [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+re2.lib(onepass.cc.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in mose 
+stokenizer.obj [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+re2.lib(bitstate.cc.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in mos 
+estokenizer.obj [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+re2.lib(parse.cc.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in mosest 
+okenizer.obj [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+re2.lib(compile.cc.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in mose 
+stokenizer.obj [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+re2.lib(bitmap256.cc.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in mo 
+sestokenizer.obj [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+re2.lib(simplify.cc.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in mos 
+estokenizer.obj [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "public: __cdecl std::locale::id::operator unsigned __int64(void)" (??Bid@locale@std@@QEAA_KXZ) already define
+d in re2.lib(tostring.cc.obj) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "public: static unsigned __int64 __cdecl std::ctype<char>::_Getcat(class std::locale::facet const * *,class st 
+d::locale const *)" (?_Getcat@?$ctype@D@std@@SA_KPEAPEBVfacet@locale@2@PEBV42@@Z) already defined in re2.lib(tostring.cc.obj) [C:\git\opus-fast-mosestoke 
+nizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "public: bool __cdecl std::ios_base::good(void)const " (?good@ios_base@std@@QEBA_NXZ) already defined in re2.l 
+ib(tostring.cc.obj) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "public: int __cdecl std::ios_base::flags(void)const " (?flags@ios_base@std@@QEBAHXZ) already defined in re2.l 
+ib(tostring.cc.obj) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "public: __int64 __cdecl std::ios_base::width(void)const " (?width@ios_base@std@@QEBA_JXZ) already defined in  
+re2.lib(tostring.cc.obj) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "public: __int64 __cdecl std::ios_base::width(__int64)" (?width@ios_base@std@@QEAA_J_J@Z) already defined in r 
+e2.lib(tostring.cc.obj) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "public: class std::locale __cdecl std::ios_base::getloc(void)const " (?getloc@ios_base@std@@QEBA?AVlocale@2@X 
+Z) already defined in re2.lib(tostring.cc.obj) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "protected: __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::basic_streambuf<char,struct std 
+::char_traits<char> >(void)" (??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAA@XZ) already defined in re2.lib(tostring.cc.obj) [C:\git\opus-fast-mo 
+sestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "public: virtual __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::~basic_streambuf<char,stru 
+ct std::char_traits<char> >(void)" (??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAA@XZ) already defined in re2.lib(tostring.cc.obj) [C:\git\opus-f 
+ast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "public: int __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::sputc(char)" (?sputc@?$basic_s 
+treambuf@DU?$char_traits@D@std@@@std@@QEAAHD@Z) already defined in re2.lib(tostring.cc.obj) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython 
+-310\Release\_mosestokenizer.vcxproj]
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "public: __int64 __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::sputn(char const *,__int64 
+)" (?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAA_JPEBD_J@Z) already defined in re2.lib(tostring.cc.obj) [C:\git\opus-fast-mosestokenizer\bu 
+ild\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "protected: char * __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::eback(void)const " (?eba 
+ck@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ) already defined in re2.lib(tostring.cc.obj) [C:\git\opus-fast-mosestokenizer\build\temp.win 
+-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "protected: char * __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::gptr(void)const " (?gptr 
+@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ) already defined in re2.lib(tostring.cc.obj) [C:\git\opus-fast-mosestokenizer\build\temp.win-a 
+md64-cpython-310\Release\_mosestokenizer.vcxproj]
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "protected: char * __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::pbase(void)const " (?pba 
+se@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ) already defined in re2.lib(tostring.cc.obj) [C:\git\opus-fast-mosestokenizer\build\temp.win 
+-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "protected: char * __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::pptr(void)const " (?pptr 
+@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ) already defined in re2.lib(tostring.cc.obj) [C:\git\opus-fast-mosestokenizer\build\temp.win-a 
+md64-cpython-310\Release\_mosestokenizer.vcxproj]
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "protected: char * __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::egptr(void)const " (?egp 
+tr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ) already defined in re2.lib(tostring.cc.obj) [C:\git\opus-fast-mosestokenizer\build\temp.win 
+-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "protected: void __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::gbump(int)" (?gbump@?$basi 
+c_streambuf@DU?$char_traits@D@std@@@std@@IEAAXH@Z) already defined in re2.lib(tostring.cc.obj) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpyt 
+hon-310\Release\_mosestokenizer.vcxproj]
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "protected: void __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::setg(char *,char *,char *) 
+" (?setg@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXPEAD00@Z) already defined in re2.lib(tostring.cc.obj) [C:\git\opus-fast-mosestokenizer\build 
+\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "protected: char * __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::epptr(void)const " (?epp
+tr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBAPEADXZ) already defined in re2.lib(tostring.cc.obj) [C:\git\opus-fast-mosestokenizer\build\temp.win 
+-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "protected: void __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::setp(char *,char *)" (?set 
+p@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXPEAD0@Z) already defined in re2.lib(tostring.cc.obj) [C:\git\opus-fast-mosestokenizer\build\temp.wi 
+n-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "protected: void __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::setp(char *,char *,char *) 
+" (?setp@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXPEAD00@Z) already defined in re2.lib(tostring.cc.obj) [C:\git\opus-fast-mosestokenizer\build 
+\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "protected: char * __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::_Pninc(void)" (?_Pninc@? 
+$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ) already defined in re2.lib(tostring.cc.obj) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd 
+64-cpython-310\Release\_mosestokenizer.vcxproj]
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "public: virtual __cdecl std::basic_ios<char,struct std::char_traits<char> >::~basic_ios<char,struct std::char 
+_traits<char> >(void)" (??1?$basic_ios@DU?$char_traits@D@std@@@std@@UEAA@XZ) already defined in re2.lib(tostring.cc.obj) [C:\git\opus-fast-mosestokenizer 
+\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "public: void __cdecl std::basic_ios<char,struct std::char_traits<char> >::setstate(int,bool)" (?setstate@?$ba 
+sic_ios@DU?$char_traits@D@std@@@std@@QEAAXH_N@Z) already defined in re2.lib(tostring.cc.obj) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpytho 
+n-310\Release\_mosestokenizer.vcxproj]
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "public: class std::basic_ostream<char,struct std::char_traits<char> > * __cdecl std::basic_ios<char,struct st 
+d::char_traits<char> >::tie(void)const " (?tie@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBAPEAV?$basic_ostream@DU?$char_traits@D@std@@@2@XZ) already def 
+ined in re2.lib(tostring.cc.obj) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "public: class std::basic_streambuf<char,struct std::char_traits<char> > * __cdecl std::basic_ios<char,struct  
+std::char_traits<char> >::rdbuf(void)const " (?rdbuf@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBAPEAV?$basic_streambuf@DU?$char_traits@D@std@@@2@XZ) alr 
+eady defined in re2.lib(tostring.cc.obj) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "public: char __cdecl std::basic_ios<char,struct std::char_traits<char> >::fill(void)const " (?fill@?$basic_io 
+s@DU?$char_traits@D@std@@@std@@QEBADXZ) already defined in re2.lib(tostring.cc.obj) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Rel 
+ease\_mosestokenizer.vcxproj]
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "protected: __cdecl std::basic_ios<char,struct std::char_traits<char> >::basic_ios<char,struct std::char_trait 
+s<char> >(void)" (??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ) already defined in re2.lib(tostring.cc.obj) [C:\git\opus-fast-mosestokenizer\build 
+\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "public: __cdecl std::basic_ostream<char,struct std::char_traits<char> >::basic_ostream<char,struct std::char_ 
+traits<char> >(class std::basic_streambuf<char,struct std::char_traits<char> > *,bool)" (??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic 
+_streambuf@DU?$char_traits@D@std@@@1@_N@Z) already defined in re2.lib(tostring.cc.obj) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\ 
+Release\_mosestokenizer.vcxproj]
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "public: virtual __cdecl std::basic_ostream<char,struct std::char_traits<char> >::~basic_ostream<char,struct s 
+td::char_traits<char> >(void)" (??1?$basic_ostream@DU?$char_traits@D@std@@@std@@UEAA@XZ) already defined in re2.lib(tostring.cc.obj) [C:\git\opus-fast-mo 
+sestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "public: void __cdecl std::basic_ostream<char,struct std::char_traits<char> >::_Osfx(void)" (?_Osfx@?$basic_os 
+tream@DU?$char_traits@D@std@@@std@@QEAAXXZ) already defined in re2.lib(tostring.cc.obj) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310 
+\Release\_mosestokenizer.vcxproj]
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "public: class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl std::basic_ostream<char,struc 
+t std::char_traits<char> >::flush(void)" (?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ) already defined in re2.lib(tostring.cc.obj)  
+[C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "public: struct _Cvtvec __cdecl std::_Locinfo::_Getcvt(void)const " (?_Getcvt@_Locinfo@std@@QEBA?AU_Cvtvec@@XZ 
+) already defined in re2.lib(tostring.cc.obj) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "protected: char * __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::_Gninc(void)" (?_Gninc@? 
+$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ) already defined in re2.lib(tostring.cc.obj) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd 
+64-cpython-310\Release\_mosestokenizer.vcxproj]
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "protected: __int64 __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::_Gnavail(void)const " ( 
+?_Gnavail@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBA_JXZ) already defined in re2.lib(tostring.cc.obj) [C:\git\opus-fast-mosestokenizer\build\tem 
+p.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "protected: void __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::pbump(int)" (?pbump@?$basi 
+c_streambuf@DU?$char_traits@D@std@@@std@@IEAAXH@Z) already defined in re2.lib(tostring.cc.obj) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpyt 
+hon-310\Release\_mosestokenizer.vcxproj]
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "protected: __int64 __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::_Pnavail(void)const " ( 
+?_Pnavail@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEBA_JXZ) already defined in re2.lib(tostring.cc.obj) [C:\git\opus-fast-mosestokenizer\build\tem 
+p.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "protected: void __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::_Init(void)" (?_Init@?$bas 
+ic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXXZ) already defined in re2.lib(tostring.cc.obj) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpyt 
+hon-310\Release\_mosestokenizer.vcxproj]
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "protected: virtual __int64 __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::xsgetn(char *,_ 
+_int64)" (?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z) already defined in re2.lib(tostring.cc.obj) [C:\git\opus-fast-mosestoken 
+izer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "protected: virtual __int64 __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::xsputn(char con 
+st *,__int64)" (?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z) already defined in re2.lib(tostring.cc.obj) [C:\git\opus-fast-mose 
+stokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "public: char __cdecl std::basic_ios<char,struct std::char_traits<char> >::widen(char)const " (?widen@?$basic_ 
+ios@DU?$char_traits@D@std@@@std@@QEBADD@Z) already defined in re2.lib(tostring.cc.obj) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\ 
+Release\_mosestokenizer.vcxproj]
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "public: class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl std::basic_ostream<char,struc 
+t std::char_traits<char> >::operator<<(int)" (??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@H@Z) already defined in re2.lib(tostring.cc.obj) 
+ [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+msvcprt.lib(MSVCP140.dll) : error LNK2005: "public: class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl std::basic_ostream<char,struc 
+t std::char_traits<char> >::operator<<(unsigned __int64)" (??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@_K@Z) already defined in re2.lib(re 
+2.cc.obj) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+libcpmt.lib(locale0.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in mos 
+estokenizer.obj [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+libcpmt.lib(locale0.obj) : error LNK2005: "void __cdecl std::_Facet_Register(class std::_Facet_base *)" (?_Facet_Register@std@@YAXPEAV_Facet_base@1@@Z) a 
+lready defined in msvcprt.lib(locale0_implib.obj) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]      
+libcpmt.lib(locale0.obj) : error LNK2005: "private: static class std::locale::_Locimp * __cdecl std::locale::_Getgloballocale(void)" (?_Getgloballocale@l 
+ocale@std@@CAPEAV_Locimp@12@XZ) already defined in msvcprt.lib(MSVCP140.dll) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_m 
+osestokenizer.vcxproj]
+libcpmt.lib(locale0.obj) : error LNK2005: "private: static class std::locale::_Locimp * __cdecl std::locale::_Init(bool)" (?_Init@locale@std@@CAPEAV_Loci 
+mp@12@_N@Z) already defined in msvcprt.lib(MSVCP140.dll) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxpro 
+j]
+libcpmt.lib(locale0.obj) : error LNK2005: "public: static void __cdecl std::_Locinfo::_Locinfo_ctor(class std::_Locinfo *,char const *)" (?_Locinfo_ctor@ 
+_Locinfo@std@@SAXPEAV12@PEBD@Z) already defined in msvcprt.lib(MSVCP140.dll) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_m 
+osestokenizer.vcxproj]
+libcpmt.lib(locale0.obj) : error LNK2005: "public: static void __cdecl std::_Locinfo::_Locinfo_dtor(class std::_Locinfo *)" (?_Locinfo_dtor@_Locinfo@std@ 
+@SAXPEAV12@@Z) already defined in msvcprt.lib(MSVCP140.dll) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcx 
+proj]
+libcpmt.lib(locale.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in mose 
+stokenizer.obj [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+libcpmt.lib(locale.obj) : error LNK2005: "public: static unsigned __int64 __cdecl std::codecvt<char,char,struct _Mbstatet>::_Getcat(class std::locale::fa 
+cet const * *,class std::locale const *)" (?_Getcat@?$codecvt@DDU_Mbstatet@@@std@@SA_KPEAPEBVfacet@locale@2@PEBV42@@Z) already defined in msvcprt.lib(MSV 
+CP140.dll) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+libcpmt.lib(locale.obj) : error LNK2005: "public: int __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::sbumpc(void)" (?sbumpc@?$basic_s 
+treambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ) already defined in msvcprt.lib(MSVCP140.dll) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython 
+-310\Release\_mosestokenizer.vcxproj]
+libcpmt.lib(locale.obj) : error LNK2005: "public: int __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::sgetc(void)" (?sgetc@?$basic_str 
+eambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ) already defined in msvcprt.lib(MSVCP140.dll) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-3 
+10\Release\_mosestokenizer.vcxproj]
+libcpmt.lib(iosptrs.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in mos 
+estokenizer.obj [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+libcpmt.lib(wlocale.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in mos 
+estokenizer.obj [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+libcpmt.lib(wlocale.obj) : error LNK2005: "protected: wchar_t * __cdecl std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >::_Pninc(void)" (?
+_Pninc@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@IEAAPEA_WXZ) already defined in msvcprt.lib(MSVCP140.dll) [C:\git\opus-fast-mosestokenizer\build\ 
+temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+libcpmt.lib(wlocale.obj) : error LNK2005: "public: unsigned short const * __cdecl std::_Locinfo::_W_Getdays(void)const " (?_W_Getdays@_Locinfo@std@@QEBAP 
+EBGXZ) already defined in msvcprt.lib(MSVCP140.dll) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]    
+libcpmt.lib(wlocale.obj) : error LNK2005: "public: unsigned short const * __cdecl std::_Locinfo::_W_Getmonths(void)const " (?_W_Getmonths@_Locinfo@std@@Q 
+EBAPEBGXZ) already defined in msvcprt.lib(MSVCP140.dll) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj 
+]
+libcpmt.lib(wlocale.obj) : error LNK2005: "protected: wchar_t * __cdecl std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >::gptr(void)const  
+" (?gptr@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@IEBAPEA_WXZ) already defined in msvcprt.lib(MSVCP140.dll) [C:\git\opus-fast-mosestokenizer\buil 
+d\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+libcpmt.lib(wlocale.obj) : error LNK2005: "public: unsigned short __cdecl std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >::sputc(wchar_t) 
+" (?sputc@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@QEAAG_W@Z) already defined in msvcprt.lib(MSVCP140.dll) [C:\git\opus-fast-mosestokenizer\build 
+\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+libcpmt.lib(xlocale.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in mos 
+estokenizer.obj [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+libcpmt.lib(xlocale.obj) : error LNK2005: "public: unsigned short const * __cdecl std::_Locinfo::_W_Getdays(void)const " (?_W_Getdays@_Locinfo@std@@QEBAP 
+EBGXZ) already defined in msvcprt.lib(MSVCP140.dll) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]    
+libcpmt.lib(xlocale.obj) : error LNK2005: "public: unsigned short const * __cdecl std::_Locinfo::_W_Getmonths(void)const " (?_W_Getmonths@_Locinfo@std@@Q 
+EBAPEBGXZ) already defined in msvcprt.lib(MSVCP140.dll) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj 
+]
+libcpmt.lib(xlocale.obj) : error LNK2005: "public: int __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::sbumpc(void)" (?sbumpc@?$basic_ 
+streambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ) already defined in msvcprt.lib(MSVCP140.dll) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpytho 
+n-310\Release\_mosestokenizer.vcxproj]
+libcpmt.lib(xlocale.obj) : error LNK2005: "public: int __cdecl std::basic_streambuf<char,struct std::char_traits<char> >::sgetc(void)" (?sgetc@?$basic_st 
+reambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ) already defined in msvcprt.lib(MSVCP140.dll) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython- 
+310\Release\_mosestokenizer.vcxproj]
+libcpmt.lib(xstol.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in moses 
+tokenizer.obj [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+libcpmt.lib(xstoul.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in mose 
+stokenizer.obj [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+libcpmt.lib(xstoll.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in mose 
+stokenizer.obj [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+libcpmt.lib(xstoull.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in mos 
+estokenizer.obj [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+libcpmt.lib(xlock.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in moses 
+tokenizer.obj [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+libcpmt.lib(xlock.obj) : error LNK2005: "public: __cdecl std::_Lockit::_Lockit(int)" (??0_Lockit@std@@QEAA@H@Z) already defined in msvcprt.lib(MSVCP140.d 
+ll) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+libcpmt.lib(xlock.obj) : error LNK2005: "public: __cdecl std::_Lockit::~_Lockit(void)" (??1_Lockit@std@@QEAA@XZ) already defined in msvcprt.lib(MSVCP140. 
+dll) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+libcpmt.lib(xstrcoll.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in mo 
+sestokenizer.obj [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+libcpmt.lib(xdateord.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in mo 
+sestokenizer.obj [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+libcpmt.lib(xwctomb.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in mos 
+estokenizer.obj [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+libcpmt.lib(xwctomb.obj) : error LNK2005: _Getcvt already defined in msvcprt.lib(MSVCP140.dll) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpyt 
+hon-310\Release\_mosestokenizer.vcxproj]
+libcpmt.lib(xwcscoll.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in mo 
+sestokenizer.obj [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+libcpmt.lib(xwcsxfrm.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in mo 
+sestokenizer.obj [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+libcpmt.lib(xgetwctype.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in  
+mosestokenizer.obj [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+libcpmt.lib(xtowlower.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in m 
+osestokenizer.obj [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+libcpmt.lib(xtowupper.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in m 
+osestokenizer.obj [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+libcpmt.lib(xstrxfrm.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in mo 
+sestokenizer.obj [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+libcpmt.lib(xmtx.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease' in mosest 
+okenizer.obj [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+libcpmt.lib(StlCompareStringA.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelea 
+se' in mosestokenizer.obj [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+libcpmt.lib(StlCompareStringW.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelea 
+se' in mosestokenizer.obj [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+libcpmt.lib(StlLCMapStringW.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease 
+' in mosestokenizer.obj [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+libcpmt.lib(StlLCMapStringA.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MT_StaticRelease' doesn't match value 'MD_DynamicRelease 
+' in mosestokenizer.obj [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+     Creating library C:/git/opus-fast-mosestokenizer/build/temp.win-amd64-cpython-310/Release/Release/_mosestokenizer.lib and object C:/git/opus-fast-mo 
+  sestokenizer/build/temp.win-amd64-cpython-310/Release/Release/_mosestokenizer.exp
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library [C:\git\opus-fast-mosestokenizer\build\temp.win-a 
+md64-cpython-310\Release\_mosestokenizer.vcxproj]
+mosestokenizer-dev.lib(Tokenizer.obj) : error LNK2019: unresolved external symbol "void __cdecl absl::lts_20230802::base_internal::ThrowStdOutOfRange(cha
+r const *)" (?ThrowStdOutOfRange@base_internal@lts_20230802@absl@@YAXPEBD@Z) referenced in function "protected: void __cdecl mosestokenizer::Tokenizer::p 
+rotected_tokenize(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)" (?protected_tokenize@Tokenizer@mosestokeniz 
+er@@IEAAXAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_ 
+mosestokenizer.vcxproj]
+re2.lib(re2.cc.obj) : error LNK2001: unresolved external symbol "void __cdecl absl::lts_20230802::base_internal::ThrowStdOutOfRange(char const *)" (?Thro 
+wStdOutOfRange@base_internal@lts_20230802@absl@@YAXPEBD@Z) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxp 
+roj]
+mosestokenizer-dev.lib(Tokenizer.obj) : error LNK2019: unresolved external symbol "public: unsigned __int64 __cdecl absl::lts_20230802::string_view::find 
+(char,unsigned __int64)const " (?find@string_view@lts_20230802@absl@@QEBA_KD_K@Z) referenced in function "protected: void __cdecl mosestokenizer::Tokeniz 
+er::protected_tokenize(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)" (?protected_tokenize@Tokenizer@mosesto 
+kenizer@@IEAAXAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Rele 
+ase\_mosestokenizer.vcxproj]
+re2.lib(parse.cc.obj) : error LNK2001: unresolved external symbol "public: unsigned __int64 __cdecl absl::lts_20230802::string_view::find(char,unsigned _ 
+_int64)const " (?find@string_view@lts_20230802@absl@@QEBA_KD_K@Z) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokeniz 
+er.vcxproj]
+mosestokenizer-dev.lib(Tokenizer.obj) : error LNK2019: unresolved external symbol "public: virtual __cdecl boost::detail::thread_data_base::~thread_data_ 
+base(void)" (??1thread_data_base@detail@boost@@UEAA@XZ) referenced in function "public: virtual void * __cdecl boost::detail::thread_data<struct mosestok 
+enizer::Tokenizer::VectorTokenizerCallable>::`scalar deleting destructor'(unsigned int)" (??_G?$thread_data@UVectorTokenizerCallable@Tokenizer@mosestoken 
+izer@@@detail@boost@@UEAAPEAXI@Z) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+mosestokenizer-dev.lib(Tokenizer.obj) : error LNK2019: unresolved external symbol "private: bool __cdecl boost::thread::start_thread_noexcept(void)" (?st 
+art_thread_noexcept@thread@boost@@AEAA_NXZ) referenced in function "public: unsigned __int64 __cdecl mosestokenizer::Tokenizer::tokenize(class std::basic 
+_istream<char,struct std::char_traits<char> > &,class std::basic_ostream<char,struct std::char_traits<char> > &)" (?tokenize@Tokenizer@mosestokenizer@@QE 
+AA_KAEAV?$basic_istream@DU?$char_traits@D@std@@@std@@AEAV?$basic_ostream@DU?$char_traits@D@std@@@4@@Z) [C:\git\opus-fast-mosestokenizer\build\temp.win-am 
+d64-cpython-310\Release\_mosestokenizer.vcxproj]
+mosestokenizer-dev.lib(Tokenizer.obj) : error LNK2019: unresolved external symbol "public: __cdecl boost::thread::thread(void)" (??0thread@boost@@QEAA@XZ 
+) referenced in function "public: unsigned __int64 __cdecl mosestokenizer::Tokenizer::tokenize(class std::basic_istream<char,struct std::char_traits<char 
+> > &,class std::basic_ostream<char,struct std::char_traits<char> > &)" (?tokenize@Tokenizer@mosestokenizer@@QEAA_KAEAV?$basic_istream@DU?$char_traits@D@ 
+std@@@std@@AEAV?$basic_ostream@DU?$char_traits@D@std@@@4@@Z) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vc 
+xproj]
+mosestokenizer-dev.lib(Tokenizer.obj) : error LNK2019: unresolved external symbol "public: class boost::thread::id __cdecl boost::thread::get_id(void)con 
+st " (?get_id@thread@boost@@QEBA?AVid@12@XZ) referenced in function "public: unsigned __int64 __cdecl mosestokenizer::Tokenizer::tokenize(class std::basi 
+c_istream<char,struct std::char_traits<char> > &,class std::basic_ostream<char,struct std::char_traits<char> > &)" (?tokenize@Tokenizer@mosestokenizer@@Q 
+EAA_KAEAV?$basic_istream@DU?$char_traits@D@std@@@std@@AEAV?$basic_ostream@DU?$char_traits@D@std@@@4@@Z) [C:\git\opus-fast-mosestokenizer\build\temp.win-a 
+md64-cpython-310\Release\_mosestokenizer.vcxproj]
+mosestokenizer-dev.lib(Tokenizer.obj) : error LNK2019: unresolved external symbol "public: bool __cdecl boost::thread::joinable(void)const " (?joinable@t 
+hread@boost@@QEBA_NXZ) referenced in function "public: unsigned __int64 __cdecl mosestokenizer::Tokenizer::tokenize(class std::basic_istream<char,struct  
+std::char_traits<char> > &,class std::basic_ostream<char,struct std::char_traits<char> > &)" (?tokenize@Tokenizer@mosestokenizer@@QEAA_KAEAV?$basic_istre 
+am@DU?$char_traits@D@std@@@std@@AEAV?$basic_ostream@DU?$char_traits@D@std@@@4@@Z) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Relea 
+se\_mosestokenizer.vcxproj]
+mosestokenizer-dev.lib(Tokenizer.obj) : error LNK2019: unresolved external symbol "private: bool __cdecl boost::thread::join_noexcept(void)" (?join_noexc 
+ept@thread@boost@@AEAA_NXZ) referenced in function "public: unsigned __int64 __cdecl mosestokenizer::Tokenizer::tokenize(class std::basic_istream<char,st 
+ruct std::char_traits<char> > &,class std::basic_ostream<char,struct std::char_traits<char> > &)" (?tokenize@Tokenizer@mosestokenizer@@QEAA_KAEAV?$basic_ 
+istream@DU?$char_traits@D@std@@@std@@AEAV?$basic_ostream@DU?$char_traits@D@std@@@4@@Z) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\ 
+Release\_mosestokenizer.vcxproj]
+mosestokenizer-dev.lib(Tokenizer.obj) : error LNK2019: unresolved external symbol "public: void __cdecl boost::thread::detach(void)" (?detach@thread@boos 
+t@@QEAAXXZ) referenced in function "void __cdecl std::_Destroy_range<class std::allocator<class boost::thread> >(class boost::thread *,class boost::threa 
+d * const,class std::allocator<class boost::thread> &)" (??$_Destroy_range@V?$allocator@Vthread@boost@@@std@@@std@@YAXPEAVthread@boost@@QEAV12@AEAV?$allo 
+cator@Vthread@boost@@@0@@Z) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+mosestokenizer-dev.lib(Tokenizer.obj) : error LNK2019: unresolved external symbol "class boost::thread::id __cdecl boost::this_thread::get_id(void)" (?ge 
+t_id@this_thread@boost@@YA?AVid@thread@2@XZ) referenced in function "public: unsigned __int64 __cdecl mosestokenizer::Tokenizer::tokenize(class std::basi 
+c_istream<char,struct std::char_traits<char> > &,class std::basic_ostream<char,struct std::char_traits<char> > &)" (?tokenize@Tokenizer@mosestokenizer@@Q 
+EAA_KAEAV?$basic_istream@DU?$char_traits@D@std@@@std@@AEAV?$basic_ostream@DU?$char_traits@D@std@@@4@@Z) [C:\git\opus-fast-mosestokenizer\build\temp.win-a 
+md64-cpython-310\Release\_mosestokenizer.vcxproj]
+glib-2.0.lib(gwin32.c.obj) : error LNK2019: unresolved external symbol __imp_getsockopt referenced in function g_win32_handle_is_socket [C:\git\opus-fast 
+-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+glib-2.0.lib(giowin32.c.obj) : error LNK2001: unresolved external symbol __imp_getsockopt [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-3 
+10\Release\_mosestokenizer.vcxproj]
+glib-2.0.lib(gwin32.c.obj) : error LNK2019: unresolved external symbol __imp_WSAGetLastError referenced in function g_win32_reopen_noninherited [C:\git\o 
+pus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+glib-2.0.lib(giowin32.c.obj) : error LNK2001: unresolved external symbol __imp_WSAGetLastError [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpyt 
+hon-310\Release\_mosestokenizer.vcxproj]
+glib-2.0.lib(gwin32.c.obj) : error LNK2019: unresolved external symbol __imp_WSADuplicateSocketA referenced in function g_win32_reopen_noninherited [C:\g 
+it\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+glib-2.0.lib(gwin32.c.obj) : error LNK2019: unresolved external symbol __imp_WSASocketA referenced in function g_win32_reopen_noninherited [C:\git\opus-f 
+ast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+glib-2.0.lib(gconvert.c.obj) : error LNK2019: unresolved external symbol libiconv_open referenced in function g_iconv_open [C:\git\opus-fast-mosestokeniz 
+er\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+intl.lib(dcigettext.obj) : error LNK2001: unresolved external symbol libiconv_open [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Rele 
+ase\_mosestokenizer.vcxproj]
+glib-2.0.lib(gconvert.c.obj) : error LNK2019: unresolved external symbol libiconv referenced in function g_convert_with_fallback [C:\git\opus-fast-mosest 
+okenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+intl.lib(dcigettext.obj) : error LNK2001: unresolved external symbol libiconv [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_ 
+mosestokenizer.vcxproj]
+glib-2.0.lib(gconvert.c.obj) : error LNK2019: unresolved external symbol libiconv_close referenced in function _g_ctype_locale_to_utf8 [C:\git\opus-fast- 
+mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+glib-2.0.lib(giowin32.c.obj) : error LNK2019: unresolved external symbol __imp_closesocket referenced in function g_io_win32_sock_close [C:\git\opus-fast 
+-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+glib-2.0.lib(giowin32.c.obj) : error LNK2019: unresolved external symbol __imp_ioctlsocket referenced in function g_io_win32_sock_set_flags [C:\git\opus- 
+fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+glib-2.0.lib(giowin32.c.obj) : error LNK2019: unresolved external symbol __imp_recv referenced in function g_io_win32_sock_read [C:\git\opus-fast-mosesto 
+kenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+glib-2.0.lib(giowin32.c.obj) : error LNK2019: unresolved external symbol __imp_send referenced in function g_io_win32_sock_write [C:\git\opus-fast-mosest 
+okenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+glib-2.0.lib(giowin32.c.obj) : error LNK2019: unresolved external symbol __imp_WSACloseEvent referenced in function g_io_win32_free [C:\git\opus-fast-mos
+estokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+glib-2.0.lib(giowin32.c.obj) : error LNK2019: unresolved external symbol __imp_WSACreateEvent referenced in function g_io_win32_sock_create_watch [C:\git 
+\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+glib-2.0.lib(giowin32.c.obj) : error LNK2019: unresolved external symbol __imp_WSAEnumNetworkEvents referenced in function g_io_win32_check [C:\git\opus- 
+fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+glib-2.0.lib(giowin32.c.obj) : error LNK2019: unresolved external symbol __imp_WSAEventSelect referenced in function g_io_win32_prepare [C:\git\opus-fast 
+-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+glib-2.0.lib(giowin32.c.obj) : error LNK2019: unresolved external symbol __imp_WSASetEvent referenced in function g_io_win32_prepare [C:\git\opus-fast-mo 
+sestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+re2.lib(dfa.cc.obj) : error LNK2001: unresolved external symbol "private: static bool __cdecl absl::lts_20230802::str_format_internal::FormatArgImpl::Dis 
+patch<int>(union absl::lts_20230802::str_format_internal::FormatArgImpl::Data,class absl::lts_20230802::str_format_internal::FormatConversionSpecImpl,voi 
+d *)" (??$Dispatch@H@FormatArgImpl@str_format_internal@lts_20230802@absl@@CA_NTData@0123@VFormatConversionSpecImpl@123@PEAX@Z) [C:\git\opus-fast-mosestok 
+enizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+re2.lib(onepass.cc.obj) : error LNK2001: unresolved external symbol "private: static bool __cdecl absl::lts_20230802::str_format_internal::FormatArgImpl: 
+:Dispatch<int>(union absl::lts_20230802::str_format_internal::FormatArgImpl::Data,class absl::lts_20230802::str_format_internal::FormatConversionSpecImpl 
+,void *)" (??$Dispatch@H@FormatArgImpl@str_format_internal@lts_20230802@absl@@CA_NTData@0123@VFormatConversionSpecImpl@123@PEAX@Z) [C:\git\opus-fast-mose 
+stokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+re2.lib(tostring.cc.obj) : error LNK2001: unresolved external symbol "private: static bool __cdecl absl::lts_20230802::str_format_internal::FormatArgImpl 
+::Dispatch<int>(union absl::lts_20230802::str_format_internal::FormatArgImpl::Data,class absl::lts_20230802::str_format_internal::FormatConversionSpecImp 
+l,void *)" (??$Dispatch@H@FormatArgImpl@str_format_internal@lts_20230802@absl@@CA_NTData@0123@VFormatConversionSpecImpl@123@PEAX@Z) [C:\git\opus-fast-mos 
+estokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+re2.lib(re2.cc.obj) : error LNK2001: unresolved external symbol "private: static bool __cdecl absl::lts_20230802::str_format_internal::FormatArgImpl::Dis 
+patch<int>(union absl::lts_20230802::str_format_internal::FormatArgImpl::Data,class absl::lts_20230802::str_format_internal::FormatConversionSpecImpl,voi 
+d *)" (??$Dispatch@H@FormatArgImpl@str_format_internal@lts_20230802@absl@@CA_NTData@0123@VFormatConversionSpecImpl@123@PEAX@Z) [C:\git\opus-fast-mosestok 
+enizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+re2.lib(prog.cc.obj) : error LNK2001: unresolved external symbol "private: static bool __cdecl absl::lts_20230802::str_format_internal::FormatArgImpl::Di 
+spatch<int>(union absl::lts_20230802::str_format_internal::FormatArgImpl::Data,class absl::lts_20230802::str_format_internal::FormatConversionSpecImpl,vo 
+id *)" (??$Dispatch@H@FormatArgImpl@str_format_internal@lts_20230802@absl@@CA_NTData@0123@VFormatConversionSpecImpl@123@PEAX@Z) [C:\git\opus-fast-mosesto 
+kenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+re2.lib(nfa.cc.obj) : error LNK2001: unresolved external symbol "private: static bool __cdecl absl::lts_20230802::str_format_internal::FormatArgImpl::Dis 
+patch<int>(union absl::lts_20230802::str_format_internal::FormatArgImpl::Data,class absl::lts_20230802::str_format_internal::FormatConversionSpecImpl,voi 
+d *)" (??$Dispatch@H@FormatArgImpl@str_format_internal@lts_20230802@absl@@CA_NTData@0123@VFormatConversionSpecImpl@123@PEAX@Z) [C:\git\opus-fast-mosestok 
+enizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+re2.lib(dfa.cc.obj) : error LNK2001: unresolved external symbol "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >  
+__cdecl absl::lts_20230802::str_format_internal::FormatPack(class absl::lts_20230802::str_format_internal::UntypedFormatSpecImpl,class absl::lts_20230802 
+::Span<class absl::lts_20230802::str_format_internal::FormatArgImpl const >)" (?FormatPack@str_format_internal@lts_20230802@absl@@YA?AV?$basic_string@DU? 
+$char_traits@D@std@@V?$allocator@D@2@@std@@VUntypedFormatSpecImpl@123@V?$Span@$$CBVFormatArgImpl@str_format_internal@lts_20230802@absl@@@23@@Z) [C:\git\o 
+pus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+re2.lib(onepass.cc.obj) : error LNK2001: unresolved external symbol "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char 
+> > __cdecl absl::lts_20230802::str_format_internal::FormatPack(class absl::lts_20230802::str_format_internal::UntypedFormatSpecImpl,class absl::lts_2023 
+0802::Span<class absl::lts_20230802::str_format_internal::FormatArgImpl const >)" (?FormatPack@str_format_internal@lts_20230802@absl@@YA?AV?$basic_string 
+@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@VUntypedFormatSpecImpl@123@V?$Span@$$CBVFormatArgImpl@str_format_internal@lts_20230802@absl@@@23@@Z) [C:\g 
+it\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+re2.lib(tostring.cc.obj) : error LNK2001: unresolved external symbol "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<cha 
+r> > __cdecl absl::lts_20230802::str_format_internal::FormatPack(class absl::lts_20230802::str_format_internal::UntypedFormatSpecImpl,class absl::lts_202 
+30802::Span<class absl::lts_20230802::str_format_internal::FormatArgImpl const >)" (?FormatPack@str_format_internal@lts_20230802@absl@@YA?AV?$basic_strin 
+g@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@VUntypedFormatSpecImpl@123@V?$Span@$$CBVFormatArgImpl@str_format_internal@lts_20230802@absl@@@23@@Z) [C:\ 
+git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+re2.lib(re2.cc.obj) : error LNK2001: unresolved external symbol "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >  
+__cdecl absl::lts_20230802::str_format_internal::FormatPack(class absl::lts_20230802::str_format_internal::UntypedFormatSpecImpl,class absl::lts_20230802 
+::Span<class absl::lts_20230802::str_format_internal::FormatArgImpl const >)" (?FormatPack@str_format_internal@lts_20230802@absl@@YA?AV?$basic_string@DU? 
+$char_traits@D@std@@V?$allocator@D@2@@std@@VUntypedFormatSpecImpl@123@V?$Span@$$CBVFormatArgImpl@str_format_internal@lts_20230802@absl@@@23@@Z) [C:\git\o 
+pus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+re2.lib(prog.cc.obj) : error LNK2001: unresolved external symbol "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > 
+ __cdecl absl::lts_20230802::str_format_internal::FormatPack(class absl::lts_20230802::str_format_internal::UntypedFormatSpecImpl,class absl::lts_2023080 
+2::Span<class absl::lts_20230802::str_format_internal::FormatArgImpl const >)" (?FormatPack@str_format_internal@lts_20230802@absl@@YA?AV?$basic_string@DU 
+?$char_traits@D@std@@V?$allocator@D@2@@std@@VUntypedFormatSpecImpl@123@V?$Span@$$CBVFormatArgImpl@str_format_internal@lts_20230802@absl@@@23@@Z) [C:\git\ 
+opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+re2.lib(nfa.cc.obj) : error LNK2001: unresolved external symbol "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >  
+__cdecl absl::lts_20230802::str_format_internal::FormatPack(class absl::lts_20230802::str_format_internal::UntypedFormatSpecImpl,class absl::lts_20230802 
+::Span<class absl::lts_20230802::str_format_internal::FormatArgImpl const >)" (?FormatPack@str_format_internal@lts_20230802@absl@@YA?AV?$basic_string@DU? 
+$char_traits@D@std@@V?$allocator@D@2@@std@@VUntypedFormatSpecImpl@123@V?$Span@$$CBVFormatArgImpl@str_format_internal@lts_20230802@absl@@@23@@Z) [C:\git\o 
+pus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+re2.lib(re2.cc.obj) : error LNK2019: unresolved external symbol "unsigned int __cdecl absl::lts_20230802::base_internal::SpinLockWait(struct std::atomic< 
+unsigned int> *,int,struct absl::lts_20230802::base_internal::SpinLockWaitTransition const * const,enum absl::lts_20230802::base_internal::SchedulingMode 
+)" (?SpinLockWait@base_internal@lts_20230802@absl@@YAIPEAU?$atomic@I@std@@HQEBUSpinLockWaitTransition@123@W4SchedulingMode@123@@Z) referenced in function 
+ "void __cdecl absl::lts_20230802::base_internal::CallOnceImpl<class <lambda_028059794905e5a71f11a6d45444a683>,class re2::RE2 const *>(struct std::atomic 
+<unsigned int> *,enum absl::lts_20230802::base_internal::SchedulingMode,class <lambda_028059794905e5a71f11a6d45444a683> &&,class re2::RE2 const * &&)" (? 
+?$CallOnceImpl@V<lambda_028059794905e5a71f11a6d45444a683>@@PEBVRE2@re2@@@base_internal@lts_20230802@absl@@YAXPEAU?$atomic@I@std@@W4SchedulingMode@012@$$Q 
+EAV<lambda_028059794905e5a71f11a6d45444a683>@@$$QEAPEBVRE2@re2@@@Z) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestoken 
+izer.vcxproj]
+re2.lib(regexp.cc.obj) : error LNK2001: unresolved external symbol "unsigned int __cdecl absl::lts_20230802::base_internal::SpinLockWait(struct std::atom 
+ic<unsigned int> *,int,struct absl::lts_20230802::base_internal::SpinLockWaitTransition const * const,enum absl::lts_20230802::base_internal::SchedulingM 
+ode)" (?SpinLockWait@base_internal@lts_20230802@absl@@YAIPEAU?$atomic@I@std@@HQEBUSpinLockWaitTransition@123@W4SchedulingMode@123@@Z) [C:\git\opus-fast-m 
+osestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+re2.lib(dfa.cc.obj) : error LNK2001: unresolved external symbol "unsigned int __cdecl absl::lts_20230802::base_internal::SpinLockWait(struct std::atomic< 
+unsigned int> *,int,struct absl::lts_20230802::base_internal::SpinLockWaitTransition const * const,enum absl::lts_20230802::base_internal::SchedulingMode 
+)" (?SpinLockWait@base_internal@lts_20230802@absl@@YAIPEAU?$atomic@I@std@@HQEBUSpinLockWaitTransition@123@W4SchedulingMode@123@@Z) [C:\git\opus-fast-mose 
+stokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+re2.lib(re2.cc.obj) : error LNK2019: unresolved external symbol AbslInternalSpinLockWake_lts_20230802 referenced in function "void __cdecl absl::lts_2023 
+0802::base_internal::CallOnceImpl<class <lambda_028059794905e5a71f11a6d45444a683>,class re2::RE2 const *>(struct std::atomic<unsigned int> *,enum absl::l 
+ts_20230802::base_internal::SchedulingMode,class <lambda_028059794905e5a71f11a6d45444a683> &&,class re2::RE2 const * &&)" (??$CallOnceImpl@V<lambda_02805 
+9794905e5a71f11a6d45444a683>@@PEBVRE2@re2@@@base_internal@lts_20230802@absl@@YAXPEAU?$atomic@I@std@@W4SchedulingMode@012@$$QEAV<lambda_028059794905e5a71f 
+11a6d45444a683>@@$$QEAPEBVRE2@re2@@@Z) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+re2.lib(regexp.cc.obj) : error LNK2001: unresolved external symbol AbslInternalSpinLockWake_lts_20230802 [C:\git\opus-fast-mosestokenizer\build\temp.win- 
+amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+re2.lib(dfa.cc.obj) : error LNK2001: unresolved external symbol AbslInternalSpinLockWake_lts_20230802 [C:\git\opus-fast-mosestokenizer\build\temp.win-amd 
+64-cpython-310\Release\_mosestokenizer.vcxproj]
+re2.lib(regexp.cc.obj) : error LNK2019: unresolved external symbol "public: __cdecl absl::lts_20230802::Mutex::~Mutex(void)" (??1Mutex@lts_20230802@absl@ 
+@QEAA@XZ) referenced in function "int `void __cdecl absl::lts_20230802::base_internal::CallOnceImpl<class <lambda_7bc6fa1cd4256de0805bc646dc75c3ab> >(str 
+uct std::atomic<unsigned int> *,enum lts_20230802::base_internal::dtor$0::SchedulingMode,class <lambda_7bc6fa1cd4256de0805bc646dc75c3ab> &&)'::`1'::dtor$ 
+0" (?dtor$0@?0???$CallOnceImpl@V<lambda_7bc6fa1cd4256de0805bc646dc75c3ab>@@$$V@base_internal@lts_20230802@absl@@YAXPEAU?$atomic@I@std@@W4SchedulingMode@0 
+12@$$QEAV<lambda_7bc6fa1cd4256de0805bc646dc75c3ab>@@@Z@4HA) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcx 
+proj]
+re2.lib(dfa.cc.obj) : error LNK2001: unresolved external symbol "public: __cdecl absl::lts_20230802::Mutex::~Mutex(void)" (??1Mutex@lts_20230802@absl@@QE 
+AA@XZ) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+re2.lib(regexp.cc.obj) : error LNK2019: unresolved external symbol "public: void __cdecl absl::lts_20230802::Mutex::Lock(void)" (?Lock@Mutex@lts_20230802 
+@absl@@QEAAXXZ) referenced in function "public: __cdecl absl::lts_20230802::MutexLock::MutexLock(class absl::lts_20230802::Mutex *)" (??0MutexLock@lts_20 
+230802@absl@@QEAA@PEAVMutex@12@@Z) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+re2.lib(dfa.cc.obj) : error LNK2001: unresolved external symbol "public: void __cdecl absl::lts_20230802::Mutex::Lock(void)" (?Lock@Mutex@lts_20230802@ab 
+sl@@QEAAXXZ) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+re2.lib(regexp.cc.obj) : error LNK2019: unresolved external symbol "public: void __cdecl absl::lts_20230802::Mutex::Unlock(void)" (?Unlock@Mutex@lts_2023 
+0802@absl@@QEAAXXZ) referenced in function "public: __cdecl absl::lts_20230802::MutexLock::~MutexLock(void)" (??1MutexLock@lts_20230802@absl@@QEAA@XZ) [C 
+:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+re2.lib(dfa.cc.obj) : error LNK2001: unresolved external symbol "public: void __cdecl absl::lts_20230802::Mutex::Unlock(void)" (?Unlock@Mutex@lts_2023080 
+2@absl@@QEAAXXZ) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+re2.lib(prog.cc.obj) : error LNK2019: unresolved external symbol "private: static bool __cdecl absl::lts_20230802::str_format_internal::FormatArgImpl::Di 
+spatch<unsigned char>(union absl::lts_20230802::str_format_internal::FormatArgImpl::Data,class absl::lts_20230802::str_format_internal::FormatConversionS 
+pecImpl,void *)" (??$Dispatch@E@FormatArgImpl@str_format_internal@lts_20230802@absl@@CA_NTData@0123@VFormatConversionSpecImpl@123@PEAX@Z) referenced in f 
+unction "public: __cdecl absl::lts_20230802::str_format_internal::FormatArgImpl::FormatArgImpl<unsigned char>(unsigned char const &)" (??$?0E@FormatArgIm 
+pl@str_format_internal@lts_20230802@absl@@QEAA@AEBE@Z) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj] 
+re2.lib(prog.cc.obj) : error LNK2019: unresolved external symbol "private: static bool __cdecl absl::lts_20230802::str_format_internal::FormatArgImpl::Di 
+spatch<unsigned int>(union absl::lts_20230802::str_format_internal::FormatArgImpl::Data,class absl::lts_20230802::str_format_internal::FormatConversionSp 
+ecImpl,void *)" (??$Dispatch@I@FormatArgImpl@str_format_internal@lts_20230802@absl@@CA_NTData@0123@VFormatConversionSpecImpl@123@PEAX@Z) referenced in fu 
+nction "public: __cdecl absl::lts_20230802::str_format_internal::FormatArgImpl::FormatArgImpl<unsigned int>(unsigned int const &)" (??$?0I@FormatArgImpl@ 
+str_format_internal@lts_20230802@absl@@QEAA@AEBI@Z) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]    
+re2.lib(dfa.cc.obj) : error LNK2001: unresolved external symbol "private: static bool __cdecl absl::lts_20230802::str_format_internal::FormatArgImpl::Dis
+patch<unsigned int>(union absl::lts_20230802::str_format_internal::FormatArgImpl::Data,class absl::lts_20230802::str_format_internal::FormatConversionSpe 
+cImpl,void *)" (??$Dispatch@I@FormatArgImpl@str_format_internal@lts_20230802@absl@@CA_NTData@0123@VFormatConversionSpecImpl@123@PEAX@Z) [C:\git\opus-fast 
+-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+re2.lib(onepass.cc.obj) : error LNK2001: unresolved external symbol "private: static bool __cdecl absl::lts_20230802::str_format_internal::FormatArgImpl: 
+:Dispatch<unsigned int>(union absl::lts_20230802::str_format_internal::FormatArgImpl::Data,class absl::lts_20230802::str_format_internal::FormatConversio 
+nSpecImpl,void *)" (??$Dispatch@I@FormatArgImpl@str_format_internal@lts_20230802@absl@@CA_NTData@0123@VFormatConversionSpecImpl@123@PEAX@Z) [C:\git\opus- 
+fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+re2.lib(prog.cc.obj) : error LNK2019: unresolved external symbol "private: static bool __cdecl absl::lts_20230802::str_format_internal::FormatArgImpl::Di 
+spatch<char const *>(union absl::lts_20230802::str_format_internal::FormatArgImpl::Data,class absl::lts_20230802::str_format_internal::FormatConversionSp 
+ecImpl,void *)" (??$Dispatch@PEBD@FormatArgImpl@str_format_internal@lts_20230802@absl@@CA_NTData@0123@VFormatConversionSpecImpl@123@PEAX@Z) referenced in 
+ function "public: __cdecl absl::lts_20230802::str_format_internal::FormatArgImpl::FormatArgImpl<char const *>(char const * const &)" (??$?0PEBD@FormatAr 
+gImpl@str_format_internal@lts_20230802@absl@@QEAA@AEBQEBD@Z) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vc 
+xproj]
+re2.lib(dfa.cc.obj) : error LNK2001: unresolved external symbol "private: static bool __cdecl absl::lts_20230802::str_format_internal::FormatArgImpl::Dis 
+patch<char const *>(union absl::lts_20230802::str_format_internal::FormatArgImpl::Data,class absl::lts_20230802::str_format_internal::FormatConversionSpe 
+cImpl,void *)" (??$Dispatch@PEBD@FormatArgImpl@str_format_internal@lts_20230802@absl@@CA_NTData@0123@VFormatConversionSpecImpl@123@PEAX@Z) [C:\git\opus-f 
+ast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+re2.lib(prog.cc.obj) : error LNK2019: unresolved external symbol "private: static bool __cdecl absl::lts_20230802::str_format_internal::FormatArgImpl::Di 
+spatch<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >(union absl::lts_20230802::str_format_internal::FormatArg 
+Impl::Data,class absl::lts_20230802::str_format_internal::FormatConversionSpecImpl,void *)" (??$Dispatch@V?$basic_string@DU?$char_traits@D@std@@V?$alloca 
+tor@D@2@@std@@@FormatArgImpl@str_format_internal@lts_20230802@absl@@CA_NTData@0123@VFormatConversionSpecImpl@123@PEAX@Z) referenced in function "public:  
+__cdecl absl::lts_20230802::str_format_internal::FormatArgImpl::FormatArgImpl<class std::basic_string<char,struct std::char_traits<char>,class std::alloc 
+ator<char> > >(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (??$?0V?$basic_string@DU?$char_traits@D@ 
+std@@V?$allocator@D@2@@std@@@FormatArgImpl@str_format_internal@lts_20230802@absl@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@ 
+Z) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+re2.lib(nfa.cc.obj) : error LNK2001: unresolved external symbol "private: static bool __cdecl absl::lts_20230802::str_format_internal::FormatArgImpl::Dis 
+patch<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >(union absl::lts_20230802::str_format_internal::FormatArgI 
+mpl::Data,class absl::lts_20230802::str_format_internal::FormatConversionSpecImpl,void *)" (??$Dispatch@V?$basic_string@DU?$char_traits@D@std@@V?$allocat 
+or@D@2@@std@@@FormatArgImpl@str_format_internal@lts_20230802@absl@@CA_NTData@0123@VFormatConversionSpecImpl@123@PEAX@Z) [C:\git\opus-fast-mosestokenizer\ 
+build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+re2.lib(dfa.cc.obj) : error LNK2001: unresolved external symbol "private: static bool __cdecl absl::lts_20230802::str_format_internal::FormatArgImpl::Dis 
+patch<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >(union absl::lts_20230802::str_format_internal::FormatArgI 
+mpl::Data,class absl::lts_20230802::str_format_internal::FormatConversionSpecImpl,void *)" (??$Dispatch@V?$basic_string@DU?$char_traits@D@std@@V?$allocat 
+or@D@2@@std@@@FormatArgImpl@str_format_internal@lts_20230802@absl@@CA_NTData@0123@VFormatConversionSpecImpl@123@PEAX@Z) [C:\git\opus-fast-mosestokenizer\ 
+build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+re2.lib(nfa.cc.obj) : error LNK2019: unresolved external symbol "private: static bool __cdecl absl::lts_20230802::str_format_internal::FormatArgImpl::Dis 
+patch<bool>(union absl::lts_20230802::str_format_internal::FormatArgImpl::Data,class absl::lts_20230802::str_format_internal::FormatConversionSpecImpl,vo 
+id *)" (??$Dispatch@_N@FormatArgImpl@str_format_internal@lts_20230802@absl@@CA_NTData@0123@VFormatConversionSpecImpl@123@PEAX@Z) referenced in function " 
+public: __cdecl absl::lts_20230802::str_format_internal::FormatArgImpl::FormatArgImpl<bool>(bool const &)" (??$?0_N@FormatArgImpl@str_format_internal@lts 
+_20230802@absl@@QEAA@AEB_N@Z) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+re2.lib(dfa.cc.obj) : error LNK2001: unresolved external symbol "private: static bool __cdecl absl::lts_20230802::str_format_internal::FormatArgImpl::Dis 
+patch<bool>(union absl::lts_20230802::str_format_internal::FormatArgImpl::Data,class absl::lts_20230802::str_format_internal::FormatConversionSpecImpl,vo 
+id *)" (??$Dispatch@_N@FormatArgImpl@str_format_internal@lts_20230802@absl@@CA_NTData@0123@VFormatConversionSpecImpl@123@PEAX@Z) [C:\git\opus-fast-mosest 
+okenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+re2.lib(nfa.cc.obj) : error LNK2019: unresolved external symbol "private: static bool __cdecl absl::lts_20230802::str_format_internal::FormatArgImpl::Dis 
+patch<__int64>(union absl::lts_20230802::str_format_internal::FormatArgImpl::Data,class absl::lts_20230802::str_format_internal::FormatConversionSpecImpl 
+,void *)" (??$Dispatch@_J@FormatArgImpl@str_format_internal@lts_20230802@absl@@CA_NTData@0123@VFormatConversionSpecImpl@123@PEAX@Z) referenced in functio 
+n "public: __cdecl absl::lts_20230802::str_format_internal::FormatArgImpl::FormatArgImpl<__int64>(__int64 const &)" (??$?0_J@FormatArgImpl@str_format_int 
+ernal@lts_20230802@absl@@QEAA@AEB_J@Z) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+re2.lib(dfa.cc.obj) : error LNK2001: unresolved external symbol "private: static bool __cdecl absl::lts_20230802::str_format_internal::FormatArgImpl::Dis 
+patch<__int64>(union absl::lts_20230802::str_format_internal::FormatArgImpl::Data,class absl::lts_20230802::str_format_internal::FormatConversionSpecImpl 
+,void *)" (??$Dispatch@_J@FormatArgImpl@str_format_internal@lts_20230802@absl@@CA_NTData@0123@VFormatConversionSpecImpl@123@PEAX@Z) [C:\git\opus-fast-mos 
+estokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+re2.lib(nfa.cc.obj) : error LNK2019: unresolved external symbol "private: static bool __cdecl absl::lts_20230802::str_format_internal::FormatArgImpl::Dis 
+patch<class absl::lts_20230802::string_view>(union absl::lts_20230802::str_format_internal::FormatArgImpl::Data,class absl::lts_20230802::str_format_inte 
+rnal::FormatConversionSpecImpl,void *)" (??$Dispatch@Vstring_view@lts_20230802@absl@@@FormatArgImpl@str_format_internal@lts_20230802@absl@@CA_NTData@0123 
+@VFormatConversionSpecImpl@123@PEAX@Z) referenced in function "public: __cdecl absl::lts_20230802::str_format_internal::FormatArgImpl::FormatArgImpl<clas 
+s absl::lts_20230802::string_view>(class absl::lts_20230802::string_view const &)" (??$?0Vstring_view@lts_20230802@absl@@@FormatArgImpl@str_format_intern 
+al@lts_20230802@absl@@QEAA@AEBVstring_view@23@@Z) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]      
+re2.lib(dfa.cc.obj) : error LNK2001: unresolved external symbol "private: static bool __cdecl absl::lts_20230802::str_format_internal::FormatArgImpl::Dis 
+patch<class absl::lts_20230802::string_view>(union absl::lts_20230802::str_format_internal::FormatArgImpl::Data,class absl::lts_20230802::str_format_inte 
+rnal::FormatConversionSpecImpl,void *)" (??$Dispatch@Vstring_view@lts_20230802@absl@@@FormatArgImpl@str_format_internal@lts_20230802@absl@@CA_NTData@0123 
+@VFormatConversionSpecImpl@123@PEAX@Z) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+re2.lib(nfa.cc.obj) : error LNK2019: unresolved external symbol "int __cdecl absl::lts_20230802::str_format_internal::FprintF(struct _iobuf *,class absl: 
+:lts_20230802::str_format_internal::UntypedFormatSpecImpl,class absl::lts_20230802::Span<class absl::lts_20230802::str_format_internal::FormatArgImpl con 
+st >)" (?FprintF@str_format_internal@lts_20230802@absl@@YAHPEAU_iobuf@@VUntypedFormatSpecImpl@123@V?$Span@$$CBVFormatArgImpl@str_format_internal@lts_2023 
+0802@absl@@@23@@Z) referenced in function "int __cdecl absl::lts_20230802::FPrintF<>(struct _iobuf *,class absl::lts_20230802::str_format_internal::Forma 
+tSpecTemplate<> const &)" (??$FPrintF@$$V@lts_20230802@absl@@YAHPEAU_iobuf@@AEBV?$FormatSpecTemplate@$S@str_format_internal@01@@Z) [C:\git\opus-fast-mose 
+stokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+re2.lib(dfa.cc.obj) : error LNK2001: unresolved external symbol "int __cdecl absl::lts_20230802::str_format_internal::FprintF(struct _iobuf *,class absl: 
+:lts_20230802::str_format_internal::UntypedFormatSpecImpl,class absl::lts_20230802::Span<class absl::lts_20230802::str_format_internal::FormatArgImpl con 
+st >)" (?FprintF@str_format_internal@lts_20230802@absl@@YAHPEAU_iobuf@@VUntypedFormatSpecImpl@123@V?$Span@$$CBVFormatArgImpl@str_format_internal@lts_2023 
+0802@absl@@@23@@Z) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+re2.lib(dfa.cc.obj) : error LNK2019: unresolved external symbol "unsigned __int64 __cdecl absl::lts_20230802::hash_internal::CityHash64(char const *,unsi 
+gned __int64)" (?CityHash64@hash_internal@lts_20230802@absl@@YA_KPEBD_K@Z) referenced in function "private: static unsigned __int64 __cdecl absl::lts_202 
+30802::hash_internal::MixingHashState::CombineContiguousImpl(unsigned __int64,unsigned char const *,unsigned __int64,struct std::integral_constant<int,8> 
+)" (?CombineContiguousImpl@MixingHashState@hash_internal@lts_20230802@absl@@CA_K_KPEBE0U?$integral_constant@H$07@std@@@Z) [C:\git\opus-fast-mosestokenize 
+r\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+re2.lib(dfa.cc.obj) : error LNK2019: unresolved external symbol "private: static unsigned __int64 __cdecl absl::lts_20230802::hash_internal::MixingHashSt 
+ate::CombineLargeContiguousImpl64(unsigned __int64,unsigned char const *,unsigned __int64)" (?CombineLargeContiguousImpl64@MixingHashState@hash_internal@ 
+lts_20230802@absl@@CA_K_KPEBE0@Z) referenced in function "private: static unsigned __int64 __cdecl absl::lts_20230802::hash_internal::MixingHashState::Co 
+mbineContiguousImpl(unsigned __int64,unsigned char const *,unsigned __int64,struct std::integral_constant<int,8>)" (?CombineContiguousImpl@MixingHashStat 
+e@hash_internal@lts_20230802@absl@@CA_K_KPEBE0U?$integral_constant@H$07@std@@@Z) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Releas 
+e\_mosestokenizer.vcxproj]
+re2.lib(dfa.cc.obj) : error LNK2019: unresolved external symbol "private: static bool __cdecl absl::lts_20230802::str_format_internal::FormatArgImpl::Dis 
+patch<struct absl::lts_20230802::str_format_internal::VoidPtr>(union absl::lts_20230802::str_format_internal::FormatArgImpl::Data,class absl::lts_2023080 
+2::str_format_internal::FormatConversionSpecImpl,void *)" (??$Dispatch@UVoidPtr@str_format_internal@lts_20230802@absl@@@FormatArgImpl@str_format_internal 
+@lts_20230802@absl@@CA_NTData@0123@VFormatConversionSpecImpl@123@PEAX@Z) referenced in function "public: __cdecl absl::lts_20230802::str_format_internal: 
+:FormatArgImpl::FormatArgImpl<struct re2::DFA::State *>(struct re2::DFA::State * const &)" (??$?0PEAUState@DFA@re2@@@FormatArgImpl@str_format_internal@lt 
+s_20230802@absl@@QEAA@AEBQEAUState@DFA@re2@@@Z) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]        
+re2.lib(dfa.cc.obj) : error LNK2019: unresolved external symbol "public: void __cdecl absl::lts_20230802::Mutex::ReaderLock(void)" (?ReaderLock@Mutex@lts 
+_20230802@absl@@QEAAXXZ) referenced in function "public: __cdecl re2::DFA::RWLocker::RWLocker(class absl::lts_20230802::Mutex *)" (??0RWLocker@DFA@re2@@Q 
+EAA@PEAVMutex@lts_20230802@absl@@@Z) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+re2.lib(dfa.cc.obj) : error LNK2019: unresolved external symbol "public: void __cdecl absl::lts_20230802::Mutex::ReaderUnlock(void)" (?ReaderUnlock@Mutex 
+@lts_20230802@absl@@QEAAXXZ) referenced in function "public: __cdecl re2::DFA::RWLocker::~RWLocker(void)" (??1RWLocker@DFA@re2@@QEAA@XZ) [C:\git\opus-fas 
+t-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+re2.lib(dfa.cc.obj) : error LNK2019: unresolved external symbol "struct absl::lts_20230802::container_internal::FindInfo __cdecl absl::lts_20230802::cont 
+ainer_internal::find_first_non_full<void>(class absl::lts_20230802::container_internal::CommonFields const &,unsigned __int64)" (??$find_first_non_full@X 
+@container_internal@lts_20230802@absl@@YA?AUFindInfo@012@AEBVCommonFields@012@_K@Z) referenced in function "protected: struct std::pair<unsigned __int64, 
+bool> __cdecl absl::lts_20230802::container_internal::raw_hash_set<struct absl::lts_20230802::container_internal::FlatHashMapPolicy<struct re2::DFA::Stat 
+e *,int>,struct absl::lts_20230802::container_internal::HashEq<struct re2::DFA::State *,void>::Hash,struct absl::lts_20230802::container_internal::HashEq 
+<struct re2::DFA::State *,void>::Eq,class std::allocator<struct std::pair<struct re2::DFA::State * const,int> > >::find_or_prepare_insert<struct re2::DFA 
+::State *>(struct re2::DFA::State * const &)" (??$find_or_prepare_insert@PEAUState@DFA@re2@@@?$raw_hash_set@U?$FlatHashMapPolicy@PEAUState@DFA@re2@@H@con 
+tainer_internal@lts_20230802@absl@@UHash@?$HashEq@PEAUState@DFA@re2@@X@234@UEq@6234@V?$allocator@U?$pair@QEAUState@DFA@re2@@H@std@@@std@@@container_inter 
+nal@lts_20230802@absl@@IEAA?AU?$pair@_K_N@std@@AEBQEAUState@DFA@re2@@@Z) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_moses 
+tokenizer.vcxproj]
+re2.lib(compile.cc.obj) : error LNK2001: unresolved external symbol "struct absl::lts_20230802::container_internal::FindInfo __cdecl absl::lts_20230802:: 
+container_internal::find_first_non_full<void>(class absl::lts_20230802::container_internal::CommonFields const &,unsigned __int64)" (??$find_first_non_fu 
+ll@X@container_internal@lts_20230802@absl@@YA?AUFindInfo@012@AEBVCommonFields@012@_K@Z) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310 
+\Release\_mosestokenizer.vcxproj]
+re2.lib(dfa.cc.obj) : error LNK2019: unresolved external symbol "void __cdecl absl::lts_20230802::container_internal::ClearBackingArray(class absl::lts_2 
+0230802::container_internal::CommonFields &,struct absl::lts_20230802::container_internal::PolicyFunctions const &,bool)" (?ClearBackingArray@container_i 
+nternal@lts_20230802@absl@@YAXAEAVCommonFields@123@AEBUPolicyFunctions@123@_N@Z) referenced in function "private: void __cdecl re2::DFA::ClearCache(void) 
+" (?ClearCache@DFA@re2@@AEAAXXZ) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+re2.lib(compile.cc.obj) : error LNK2001: unresolved external symbol "void __cdecl absl::lts_20230802::container_internal::ClearBackingArray(class absl::l 
+ts_20230802::container_internal::CommonFields &,struct absl::lts_20230802::container_internal::PolicyFunctions const &,bool)" (?ClearBackingArray@contain 
+er_internal@lts_20230802@absl@@YAXAEAVCommonFields@123@AEBUPolicyFunctions@123@_N@Z) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Re 
+lease\_mosestokenizer.vcxproj]
+re2.lib(dfa.cc.obj) : error LNK2019: unresolved external symbol "void __cdecl absl::lts_20230802::container_internal::DropDeletesWithoutResize(class absl 
+::lts_20230802::container_internal::CommonFields &,struct absl::lts_20230802::container_internal::PolicyFunctions const &,void *)" (?DropDeletesWithoutRe 
+size@container_internal@lts_20230802@absl@@YAXAEAVCommonFields@123@AEBUPolicyFunctions@123@PEAX@Z) referenced in function "protected: struct std::pair<un 
+signed __int64,bool> __cdecl absl::lts_20230802::container_internal::raw_hash_set<struct absl::lts_20230802::container_internal::FlatHashMapPolicy<struct 
+ re2::DFA::State *,int>,struct absl::lts_20230802::container_internal::HashEq<struct re2::DFA::State *,void>::Hash,struct absl::lts_20230802::container_i 
+nternal::HashEq<struct re2::DFA::State *,void>::Eq,class std::allocator<struct std::pair<struct re2::DFA::State * const,int> > >::find_or_prepare_insert< 
+struct re2::DFA::State *>(struct re2::DFA::State * const &)" (??$find_or_prepare_insert@PEAUState@DFA@re2@@@?$raw_hash_set@U?$FlatHashMapPolicy@PEAUState 
+@DFA@re2@@H@container_internal@lts_20230802@absl@@UHash@?$HashEq@PEAUState@DFA@re2@@X@234@UEq@6234@V?$allocator@U?$pair@QEAUState@DFA@re2@@H@std@@@std@@@ 
+container_internal@lts_20230802@absl@@IEAA?AU?$pair@_K_N@std@@AEBQEAUState@DFA@re2@@@Z) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310
+\Release\_mosestokenizer.vcxproj]
+re2.lib(compile.cc.obj) : error LNK2001: unresolved external symbol "void __cdecl absl::lts_20230802::container_internal::DropDeletesWithoutResize(class  
+absl::lts_20230802::container_internal::CommonFields &,struct absl::lts_20230802::container_internal::PolicyFunctions const &,void *)" (?DropDeletesWitho 
+utResize@container_internal@lts_20230802@absl@@YAXAEAVCommonFields@123@AEBUPolicyFunctions@123@PEAX@Z) [C:\git\opus-fast-mosestokenizer\build\temp.win-am 
+d64-cpython-310\Release\_mosestokenizer.vcxproj]
+re2.lib(dfa.cc.obj) : error LNK2001: unresolved external symbol "private: static void const * const absl::lts_20230802::hash_internal::MixingHashState::k 
+Seed" (?kSeed@MixingHashState@hash_internal@lts_20230802@absl@@0QEBXEB) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosest 
+okenizer.vcxproj]
+re2.lib(compile.cc.obj) : error LNK2001: unresolved external symbol "private: static void const * const absl::lts_20230802::hash_internal::MixingHashStat 
+e::kSeed" (?kSeed@MixingHashState@hash_internal@lts_20230802@absl@@0QEBXEB) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mo 
+sestokenizer.vcxproj]
+re2.lib(dfa.cc.obj) : error LNK2001: unresolved external symbol "enum absl::lts_20230802::container_internal::ctrl_t const * const absl::lts_20230802::co 
+ntainer_internal::kEmptyGroup" (?kEmptyGroup@container_internal@lts_20230802@absl@@3QBW4ctrl_t@123@B) [C:\git\opus-fast-mosestokenizer\build\temp.win-amd 
+64-cpython-310\Release\_mosestokenizer.vcxproj]
+re2.lib(compile.cc.obj) : error LNK2001: unresolved external symbol "enum absl::lts_20230802::container_internal::ctrl_t const * const absl::lts_20230802 
+::container_internal::kEmptyGroup" (?kEmptyGroup@container_internal@lts_20230802@absl@@3QBW4ctrl_t@123@B) [C:\git\opus-fast-mosestokenizer\build\temp.win 
+-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+intl.lib(relocatable.obj) : error LNK2019: unresolved external symbol libiconv_set_relocation_prefix referenced in function libintl_set_relocation_prefix 
+ [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]
+C:\git\opus-fast-mosestokenizer\build\lib.win-amd64-cpython-310\mosestokenizer\lib\_mosestokenizer.cp310-win_amd64.pyd : fatal error LNK1120: 52 unresolv 
+ed externals [C:\git\opus-fast-mosestokenizer\build\temp.win-amd64-cpython-310\Release\_mosestokenizer.vcxproj]

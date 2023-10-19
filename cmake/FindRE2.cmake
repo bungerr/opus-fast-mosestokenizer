@@ -19,7 +19,8 @@ The following variables may also be set to alter behavior::
   This script is pretty hard coded.
 #]=======================================================================]
 
-if (BUILD_SHARED_LIBS)
+#if (BUILD_SHARED_LIBS)
+if (False)
 
 # Search for shared library on system level
 find_package(PkgConfig REQUIRED)
@@ -28,8 +29,8 @@ pkg_search_module(RE2 REQUIRED re2)
 else()  # BUILD_SHARED_LIBS
 
 # Search for static library from deps
-set(RE2_INCLUDE_DIRS ${CMAKE_SOURCE_DIR}/deps/re2-2020-06-01)
-set(RE2_LIBRARIES ${CMAKE_SOURCE_DIR}/deps/re2-2020-06-01/obj/libre2.a)
+set(RE2_INCLUDE_DIRS C:/git/opus-fast-mosestokenizer/vcpkg/installed/x64-windows/include)
+set(RE2_LIBRARIES C:/git/opus-fast-mosestokenizer/vcpkg/installed/x64-windows/lib/re2.lib)
 add_library(re2::re2 STATIC IMPORTED)
 
 set(RE2_FOUND ON)

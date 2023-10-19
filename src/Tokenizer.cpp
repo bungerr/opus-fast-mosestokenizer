@@ -9,9 +9,16 @@
 #include <algorithm>
 #include <cstring>
 #include <set>
-#include <glib.h>
+#include "C:/git/opus-fast-mosestokenizer/vcpkg/installed/x64-windows-static/include/glib-2.0/glib.h"
 #include <stdexcept>
 #include <boost/thread.hpp>
+
+#ifdef _WIN32
+#define R_OK 4
+#define X_OK 4
+#define access _access
+#endif
+
 
 namespace { // anonymous namespace
 

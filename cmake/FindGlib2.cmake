@@ -19,7 +19,7 @@ The following variables may also be set to alter behavior::
   This script is pretty hard coded.
 #]=======================================================================]
 
-if (BUILD_SHARED_LIBS)
+if (False)
 
 # Search for shared library on system level
 find_package(PkgConfig REQUIRED)
@@ -28,14 +28,9 @@ pkg_search_module(Glib2 REQUIRED glib-2.0)
 else()  # BUILD_SHARED_LIBS
 
 # Search for static library from deps
-set(
-  Glib2_INCLUDE_DIRS
-  ${CMAKE_SOURCE_DIR}/deps/glib-2.72.4
-  ${CMAKE_SOURCE_DIR}/deps/glib-2.72.4/glib
-  ${CMAKE_SOURCE_DIR}/deps/glib-2.72.4/build/glib
-)
-set(Glib2_LIBRARIES ${CMAKE_SOURCE_DIR}/deps/glib-2.72.4/build/glib/libglib-2.0.a)
-add_library(glib-2.0::glib-2.0 STATIC IMPORTED)
+set(Glib2_INCLUDE_DIRS C:/git/opus-fast-mosestokenizer/vcpkg/installed/x64-windows/include/glib-2.0 C:/git/opus-fast-mosestokenizer/vcpkg/installed/x64-windows/lib/glib-2.0/include)
+set(Glib2_LIBRARIES C:/git/opus-fast-mosestokenizer/vcpkg/installed/x64-windows/lib/glib-2.0.lib C:/git/opus-fast-mosestokenizer/vcpkg/installed/x64-windows/lib/gmodule-2.0.lib)
 set(Glib2_FOUND ON)
+add_library(glib-2.0::glib-2.0 STATIC IMPORTED)
 
 endif()  # BUILD_SHARED_LIBS
